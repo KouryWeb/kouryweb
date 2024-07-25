@@ -1,0 +1,290 @@
+
+:root {
+    --hellix-black-aalt: "aalt" off;
+    --hellix-black-case: "case" off;
+    --hellix-black-cv01: "cv01" off;
+    --hellix-black-dlig: "dlig" off;
+    --hellix-black-dnom: "dnom" off;
+    --hellix-black-frac: "frac" off;
+    --hellix-black-numr: "numr" off;
+    --hellix-black-ordn: "ordn" off;
+    --hellix-black-pnum: "pnum" off;
+    --hellix-black-salt: "salt" off;
+    --hellix-black-sinf: "sinf" off;
+    --hellix-black-ss01: "ss01" off;
+    --hellix-black-ss02: "ss02" off;
+    --hellix-black-ss03: "ss03" off;
+    --hellix-black-ss04: "ss04" off;
+    --hellix-black-ss05: "ss05" off;
+    --hellix-black-ss06: "ss06" off;
+    --hellix-black-ss07: "ss07" off;
+    --hellix-black-ss08: "ss08" off;
+    --hellix-black-ss09: "ss09" off;
+    --hellix-black-ss10: "ss10" off;
+    --hellix-black-ss11: "ss11" off;
+    --hellix-black-ss12: "ss12" off;
+    --hellix-black-ss13: "ss13" off;
+    --hellix-black-ss14: "ss14" off;
+    --hellix-black-ss15: "ss15" off;
+    --hellix-black-ss16: "ss16" off;
+    --hellix-black-ss17: "ss17" off;
+    --hellix-black-ss18: "ss18" off;
+    --hellix-black-subs: "subs" off;
+    --hellix-black-sups: "sups" off;
+    --hellix-black-swsh: "swsh" off;
+    --hellix-black-titl: "titl" off;
+    --hellix-black-tnum: "tnum" off;
+    --hellix-black-zero: "zero" off;
+    --hellix-black-cpsp: "cpsp" off;
+}
+
+/* If class is applied, update custom property and
+   apply modern font-variant-* when supported */
+.hellix-black-aalt {
+    --hellix-black-aalt: "aalt" on;
+}
+
+.hellix-black-case {
+    --hellix-black-case: "case" on;
+}
+
+.hellix-black-cv01 {
+    --hellix-black-cv01: "cv01" on;
+}
+
+.hellix-black-dlig {
+    --hellix-black-dlig: "dlig" on;
+}
+
+@supports (font-variant-ligatures: discretionary-ligatures) {
+    .hellix-black-dlig {
+        --hellix-black-dlig: "____";
+        font-variant-ligatures: discretionary-ligatures;
+    }
+}
+
+.hellix-black-dnom {
+    --hellix-black-dnom: "dnom" on;
+}
+
+.hellix-black-frac {
+    --hellix-black-frac: "frac" on;
+}
+
+@supports (font-variant-numeric: diagonal-fractions) {
+    .hellix-black-frac {
+        --hellix-black-frac: "____";
+        font-variant-numeric: diagonal-fractions;
+    }
+}
+
+.hellix-black-numr {
+    --hellix-black-numr: "numr" on;
+}
+
+.hellix-black-ordn {
+    --hellix-black-ordn: "ordn" on;
+}
+
+@supports (font-variant-numeric: ordinal) {
+    .hellix-black-ordn {
+        --hellix-black-ordn: "____";
+        font-variant-numeric: ordinal;
+    }
+}
+
+.hellix-black-pnum {
+    --hellix-black-pnum: "pnum" on;
+}
+
+@supports (font-variant-numeric: proportional-nums) {
+    .hellix-black-pnum {
+        --hellix-black-pnum: "____";
+        font-variant-numeric: proportional-nums;
+    }
+}
+
+.hellix-black-salt {
+    --hellix-black-salt: "salt" on;
+}
+
+.hellix-black-sinf {
+    --hellix-black-sinf: "sinf" on;
+}
+
+.hellix-black-ss01 {
+    --hellix-black-ss01: "ss01" on;
+}
+
+.hellix-black-ss02 {
+    --hellix-black-ss02: "ss02" on;
+}
+
+.hellix-black-ss03 {
+    --hellix-black-ss03: "ss03" on;
+}
+
+.hellix-black-ss04 {
+    --hellix-black-ss04: "ss04" on;
+}
+
+.hellix-black-ss05 {
+    --hellix-black-ss05: "ss05" on;
+}
+
+.hellix-black-ss06 {
+    --hellix-black-ss06: "ss06" on;
+}
+
+.hellix-black-ss07 {
+    --hellix-black-ss07: "ss07" on;
+}
+
+.hellix-black-ss08 {
+    --hellix-black-ss08: "ss08" on;
+}
+
+.hellix-black-ss09 {
+    --hellix-black-ss09: "ss09" on;
+}
+
+.hellix-black-ss10 {
+    --hellix-black-ss10: "ss10" on;
+}
+
+.hellix-black-ss11 {
+    --hellix-black-ss11: "ss11" on;
+}
+
+.hellix-black-ss12 {
+    --hellix-black-ss12: "ss12" on;
+}
+
+.hellix-black-ss13 {
+    --hellix-black-ss13: "ss13" on;
+}
+
+.hellix-black-ss14 {
+    --hellix-black-ss14: "ss14" on;
+}
+
+.hellix-black-ss15 {
+    --hellix-black-ss15: "ss15" on;
+}
+
+.hellix-black-ss16 {
+    --hellix-black-ss16: "ss16" on;
+}
+
+.hellix-black-ss17 {
+    --hellix-black-ss17: "ss17" on;
+}
+
+.hellix-black-ss18 {
+    --hellix-black-ss18: "ss18" on;
+}
+
+.hellix-black-subs {
+    --hellix-black-subs: "subs" on;
+}
+
+@supports (font-variant-position: sub) {
+    .hellix-black-subs {
+        --hellix-black-subs: "____";
+        font-variant-position: sub;
+    }
+}
+
+.hellix-black-sups {
+    --hellix-black-sups: "sups" on;
+}
+
+@supports (font-variant-position: super) {
+    .hellix-black-sups {
+        --hellix-black-sups: "____";
+        font-variant-position: super;
+    }
+}
+
+.hellix-black-swsh {
+    --hellix-black-swsh: "swsh" on;
+}
+
+.hellix-black-titl {
+    --hellix-black-titl: "titl" on;
+}
+
+@supports (font-variant-caps: titling-caps) {
+    .hellix-black-titl {
+        --hellix-black-titl: "____";
+        font-variant-caps: titling-caps;
+    }
+}
+
+.hellix-black-tnum {
+    --hellix-black-tnum: "tnum" on;
+}
+
+@supports (font-variant-numeric: tabular-nums) {
+    .hellix-black-tnum {
+        --hellix-black-tnum: "____";
+        font-variant-numeric: tabular-nums;
+    }
+}
+
+.hellix-black-zero {
+    --hellix-black-zero: "zero" on;
+}
+
+@supports (font-variant-numeric: slashed-zero) {
+    .hellix-black-zero {
+        --hellix-black-zero: "____";
+        font-variant-numeric: slashed-zero;
+    }
+}
+
+.hellix-black-cpsp {
+    --hellix-black-cpsp: "cpsp" on;
+}
+
+/* Apply current state of all custom properties
+   whenever a class is being applied */
+.hellix-black-aalt,
+.hellix-black-case,
+.hellix-black-cv01,
+.hellix-black-dlig,
+.hellix-black-dnom,
+.hellix-black-frac,
+.hellix-black-numr,
+.hellix-black-ordn,
+.hellix-black-pnum,
+.hellix-black-salt,
+.hellix-black-sinf,
+.hellix-black-ss01,
+.hellix-black-ss02,
+.hellix-black-ss03,
+.hellix-black-ss04,
+.hellix-black-ss05,
+.hellix-black-ss06,
+.hellix-black-ss07,
+.hellix-black-ss08,
+.hellix-black-ss09,
+.hellix-black-ss10,
+.hellix-black-ss11,
+.hellix-black-ss12,
+.hellix-black-ss13,
+.hellix-black-ss14,
+.hellix-black-ss15,
+.hellix-black-ss16,
+.hellix-black-ss17,
+.hellix-black-ss18,
+.hellix-black-subs,
+.hellix-black-sups,
+.hellix-black-swsh,
+.hellix-black-titl,
+.hellix-black-tnum,
+.hellix-black-zero,
+.hellix-black-cpsp {
+    font-feature-settings: var(--hellix-black-aalt), var(--hellix-black-case), var(--hellix-black-cv01), var(--hellix-black-dlig), var(--hellix-black-dnom), var(--hellix-black-frac), var(--hellix-black-numr), var(--hellix-black-ordn), var(--hellix-black-pnum), var(--hellix-black-salt), var(--hellix-black-sinf), var(--hellix-black-ss01), var(--hellix-black-ss02), var(--hellix-black-ss03), var(--hellix-black-ss04), var(--hellix-black-ss05), var(--hellix-black-ss06), var(--hellix-black-ss07), var(--hellix-black-ss08), var(--hellix-black-ss09), var(--hellix-black-ss10), var(--hellix-black-ss11), var(--hellix-black-ss12), var(--hellix-black-ss13), var(--hellix-black-ss14), var(--hellix-black-ss15), var(--hellix-black-ss16), var(--hellix-black-ss17), var(--hellix-black-ss18), var(--hellix-black-subs), var(--hellix-black-sups), var(--hellix-black-swsh), var(--hellix-black-titl), var(--hellix-black-tnum), var(--hellix-black-zero), var(--hellix-black-cpsp);
+}
+
