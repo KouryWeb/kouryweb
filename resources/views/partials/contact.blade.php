@@ -37,10 +37,7 @@
                         <a href="#contact" class="fturl">Contact</a>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                        <a href="#" class="fturl">LinkedIn</a>
-                        <a href="#" class="fturl">Facebook</a>
-                        <a href="#" class="fturl">Instagram</a>
-                        <a href="#" class="fturl">Twitter</a>
+                        <a target="_blank" href="https://www.linkedin.com/company/9222038/admin/dashboard/" class="fturl">LinkedIn</a>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                         <a class="btn btn-5 p10 mt20" href="#contact">CONNECT NOW <i class="fa fa-arrow-right fa-1x p5 pr0"></i></a>

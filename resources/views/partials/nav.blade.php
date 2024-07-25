@@ -12,31 +12,25 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                          <a class="nav-link" href="#why-us">WHY US</a>
+                            <a class="nav-link" href="#why-us">WHY US</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#services">SERVICES</a>
+                            <a class="nav-link" href="#services">SERVICES</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#our-work">PROJECTS</a>
+                            <a class="nav-link" href="#our-work">PROJECTS</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#about">ABOUT</a>
+                            <a class="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#contact">CONTACT</a>
+                            <a class="nav-link" href="#contact">CONTACT</a>
                         </li>
                         <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link" href="#"><i class="fa fa-facebook-official fa-1x float-start p5 pl0 pr0"></i></a>
-                        </li>
-                        <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link" href="#"><i class="fa fa-twitter fa-1x float-start p5 pl0 pr0"></i></a>
-                        </li>
-                        <li class="nav-item d-none d-lg-block">
-                        <a class="nav-link" href="#"><i class="fa fa-linkedin-square fa-1x float-start p5 pl0 pr0"></i></a>
+                            <a class="nav-link" target="_blank" href="https://www.linkedin.com/company/9222038/admin/dashboard/"><i class="fa fa-linkedin-square fa-1x float-start p5 pl0 pr0"></i></a>
                         </li>
                         <li class="nav-item">
-                          <a class="btn btn-5 p10 ml20 mr20" href="#contact">CONNECT NOW <i class="fa fa-arrow-right fa-1x p5 pr0"></i></a>
+                            <a class="btn btn-5 p10 ml20 mr20" href="#contact">CONNECT NOW <i class="fa fa-arrow-right fa-1x p5 pr0"></i></a>
                         </li>
                     </ul>
                 </div>
