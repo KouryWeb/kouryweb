@@ -47,7 +47,7 @@
                         <a href="#contact" class="fturl smooth-scroll">Contact</a>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                        <a target="_blank" href="https://www.linkedin.com/company/9222038/admin/dashboard/" class="fturl">LinkedIn</a>
+                        <a target="_blank" href="https://www.linkedin.com/company/9222038" class="fturl">LinkedIn</a>
                     </div>
                 </div>
             </div>

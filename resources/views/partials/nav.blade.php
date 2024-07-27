@@ -27,7 +27,7 @@
                             <a class="nav-link smooth-scroll" href="#contact">CONTACT</a>
                         </li>
                         <li class="nav-item d-none d-lg-block">
-                            <a class="nav-link" target="_blank" href="https://www.linkedin.com/company/9222038/admin/dashboard/"><i class="fa fa-linkedin-square fa-1x float-start p5 pl0 pr0"></i></a>
+                            <a class="nav-link" target="_blank" href="https://www.linkedin.com/company/9222038"><i class="fa fa-linkedin-square fa-1x float-start p5 pl0 pr0"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="btn btn-5 p10 ml20 mr20 smooth-scroll" href="#contact">CONNECT NOW <i class="fa fa-arrow-right fa-1x p5 pr0"></i></a>
