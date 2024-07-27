@@ -40,11 +40,11 @@
                 <div class="row">
                     <h4 class="text-decoration-underline mb20 d-none d-lg-block">Directory</h4>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 d-none d-lg-block">
-                        <a href="#why-us" class="fturl">Why Us</a>
-                        <a href="#services" class="fturl">Services</a>
-                        <a href="#our-work" class="fturl">Projects</a>
-                        <a href="#about" class="fturl">About</a>
-                        <a href="#contact" class="fturl">Contact</a>
+                        <a href="#why-us" class="fturl smooth-scroll">Why Us</a>
+                        <a href="#services" class="fturl smooth-scroll">Services</a>
+                        <a href="#our-work" class="fturl smooth-scroll">Projects</a>
+                        <a href="#about" class="fturl smooth-scroll">About</a>
+                        <a href="#contact" class="fturl smooth-scroll">Contact</a>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                         <a target="_blank" href="https://www.linkedin.com/company/9222038/admin/dashboard/" class="fturl">LinkedIn</a>

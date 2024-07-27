@@ -50,6 +50,23 @@
                     });
                 });
             });
+
+            document.addEventListener("DOMContentLoaded", function () {
+                document.querySelectorAll('a.smooth-scroll').forEach(anchor => {
+                    anchor.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        const targetId = anchor.getAttribute('href').substring(1);
+                        const targetElement = document.getElementById(targetId);
+
+                        if (targetElement) {
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }
+                    });
+                });
+            });
         </script>
     </body>
 </html>

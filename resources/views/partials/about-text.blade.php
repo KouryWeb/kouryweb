@@ -15,7 +15,7 @@
     Phil’s favorite hobbies include world travel with his wife, making craft cocktails, and he has been training in Brazilian Jiu Jitsu since 2012.
 </p>
 <p>
-    <a class="btn btn-5 p10 mt20" href="#contact">CONNECT NOW
+    <a class="btn btn-5 p10 mt20 smooth-scroll" href="#contact">CONNECT NOW
         <i class="fa fa-arrow-right fa-1x p5 pr0"></i>
     </a>
 </p>

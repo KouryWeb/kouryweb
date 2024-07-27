@@ -10,7 +10,7 @@
                 <p class="mt20">
                     We help businesses become industry leaders with world-class software.
                 </p>
-                <a class="btn btn-5 p10 float-start mt20" href="#contact">CONNECT NOW <i class="fa fa-arrow-right fa-1x p5 pr0"></i></a>
+                <a class="btn btn-5 p10 float-start mt20 smooth-scroll" href="#contact">CONNECT NOW <i class="fa fa-arrow-right fa-1x p5 pr0"></i></a>
             </div>
         </div>
     </div>
