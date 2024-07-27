@@ -5,7 +5,7 @@
             <a href="/"><img src="images/logo.png" class="w-100 logo" alt="Logo"/></a>
         </div>
         <div class="col justify-content-center align-items-center navcol">
-            <nav class="navbar navbar-expand-xl">
+            <nav class="navbar navbar-expand-xl" data-bs-theme="dark">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>

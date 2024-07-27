@@ -22,7 +22,7 @@
 
     <div class="container sec7 mw1600">
         <div class="row">
-            <div class="col-xl-7 col-lg-7 col-md-6 col-sm-6 ">
+            <div class="col-xl-7 col-lg-7 col-md-6 col-sm-6">
                 <img class="logofoot" src="images/logo-footer.png" alt="KouryWeb Logo"/>
                 <p class="mt60 copy">©{{ now()->year }} Koury Web, LLC. All Rights Reserved.</p>
             </div>
@@ -38,9 +38,6 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                         <a target="_blank" href="https://www.linkedin.com/company/9222038/admin/dashboard/" class="fturl">LinkedIn</a>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                        <a class="btn btn-5 p10 mt20" href="#contact">CONNECT NOW <i class="fa fa-arrow-right fa-1x p5 pr0"></i></a>
                     </div>
                 </div>
             </div>
