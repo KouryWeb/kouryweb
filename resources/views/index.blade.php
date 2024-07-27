@@ -37,6 +37,19 @@
             window.onload = function () {
                 scrolly();
             };
+
+            document.addEventListener("DOMContentLoaded", function () {
+                const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+                const navbarCollapse = document.getElementById('navbarNav');
+
+                navLinks.forEach(function (link) {
+                    link.addEventListener('click', function () {
+                        new bootstrap.Collapse(navbarCollapse, {
+                            toggle: false
+                        }).hide();
+                    });
+                });
+            });
         </script>
     </body>
 </html>
