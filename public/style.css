@@ -364,6 +364,7 @@ a.nav-link:hover {
 
 .tb2 {
     padding: 20px;
+    color: white;
 }
 
 .galcell {
@@ -897,8 +898,7 @@ button.btnsubmit {
     }
 
     .tb1 {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 10px 0;
         font-size: 0;
     }
 
@@ -913,6 +913,7 @@ button.btnsubmit {
     }
 
     .tb1l {
+        padding: 10px 0;
         border-left: 0 solid #fff;
         border-top: 1px solid #fff;
     }
