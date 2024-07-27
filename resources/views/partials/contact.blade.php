@@ -10,12 +10,22 @@
             </div>
 
             <div class="col-xl-6 col-lg-6 ">
-                <form method="post">
+                <form action="{{ route('contact') }}" method="post" id="contact-form">
                     @csrf
                     <label for="email" class="wt">Drop your <span class="prp">email here</span> and hit send.</label>
-                    <input type="email" name="contact_email" class="form-control" id="inputEmail" placeholder="your@email.com">
-                    <button type="submit" class="btnsubmit"></button>
+                    <div class="d-flex align-items-center">
+                        <input type="email" name="contact_email" class="form-control mr-2" id="inputEmail" placeholder="your@email.com">
+                        <button class="btnsubmit g-recaptcha" data-sitekey="{{ config('services.recaptcha.site_key') }}" data-callback='onSubmit' data-action='submit'></button>
+                    </div>
                 </form>
+                @push('scripts')
+                    <script src="https://www.google.com/recaptcha/api.js"></script>
+                    <script>
+                        function onSubmit() {
+                            document.getElementById("contact-form").submit();
+                        }
+                    </script>
+                @endpush
             </div>
         </div>
     </div>

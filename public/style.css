@@ -440,6 +440,8 @@ button.btnsubmit {
     background-color: #000;
     border: 0;
     top: 5px;
+    margin-left: 5px;
+    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -872,7 +874,7 @@ button.btnsubmit {
     }
 
     .form-control {
-        padding: 0;
+        padding-top: 20px;
         max-width: 280px;
         font-size: 30px;
     }
@@ -974,4 +976,8 @@ button.btnsubmit {
         outline: 0;
         border: 0;
     }
+}
+
+.grecaptcha-badge {
+    display: none !important;
 }
