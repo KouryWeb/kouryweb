@@ -495,7 +495,7 @@ button.btnsubmit {
 }
 
 .text-focus-in {
-    animation: text-focus-in 2s cubic-bezier(.55, .085, .68, .53) both
+    animation: text-focus-in .7s cubic-bezier(.55, .085, .68, .53) both
 }
 
 @keyframes text-focus-in {
