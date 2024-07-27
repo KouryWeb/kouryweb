@@ -198,7 +198,7 @@ a.nav-link:hover {
 .phil {
     width: 250px;
     height: 275px;
-    margin-top: 100px;
+    margin-top: 0;
 }
 
 .hero {
@@ -271,7 +271,7 @@ a.nav-link:hover {
 
 .sec5 {
     padding: 200px;
-    min-height: 650px;
+    min-height: 800px;
     height: 100vh;
     z-index: 2;
     position: sticky;
@@ -279,9 +279,10 @@ a.nav-link:hover {
 }
 
 .sec5-1 {
-    padding: 200px;
+    padding: 100px 200px;
     margin-top: -100vh;
-    height: 150vh;
+    /*min-height: 800px;*/
+    /*height: 125vh;*/
     z-index: 3;
     position: relative
 }
@@ -289,7 +290,7 @@ a.nav-link:hover {
 .timeline {
     background-image: url('images/sec3bg.gif');
     background-color: #fff;
-    z-index: 2;
+    z-index: 4;
     position: relative;
 }
 
@@ -297,6 +298,7 @@ a.nav-link:hover {
     padding: 200px;
     min-height: 650px;
     height: 100vh;
+    z-index: 5;
 }
 
 .contact {

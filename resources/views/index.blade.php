@@ -22,6 +22,10 @@
         <script src="/dimbox.min.js"></script>
         <script src="//cdn.lordicon.com/lordicon.js"></script>
         <script type="text/javascript" src="/scrolly.js"></script>
-        @include('partials.scripts')
+        <script>
+            window.onload = function () {
+                scrolly();
+            };
+        </script>
     </body>
 </html>
