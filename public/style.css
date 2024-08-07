@@ -821,18 +821,26 @@ button.btnsubmit {
         text-transform: uppercase;
     }
 
+
     .hero {
+        background-size: 180% 90%;
+        background-repeat: no-repeat;
         background-attachment: scroll;
-        /*background-repeat: no-repeat;*/
+        background-position-y: bottom;
     }
 
     .why-us {
+        background-size: auto 15%;
+        background-repeat: no-repeat;
         background-attachment: scroll;
-        /*background-repeat: no-repeat;*/
+        background-position-y: bottom;
     }
 
     .our-work {
+        background-size: 180% 20%;
         background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: top left;
     }
 
     #myBtns {
