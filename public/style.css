@@ -821,6 +821,20 @@ button.btnsubmit {
         text-transform: uppercase;
     }
 
+    .hero {
+        background-attachment: scroll;
+        /*background-repeat: no-repeat;*/
+    }
+
+    .why-us {
+        background-attachment: scroll;
+        /*background-repeat: no-repeat;*/
+    }
+
+    .our-work {
+        background-repeat: no-repeat;
+    }
+
     #myBtns {
         justify-content: center;
         display: inline-block;
